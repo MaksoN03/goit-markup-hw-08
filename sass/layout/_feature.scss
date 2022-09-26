@@ -1,0 +1,45 @@
+.feature {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: var(--dark-bg-color);
+    text-align: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/feature.jpg');
+    padding: 200px 0;
+}
+
+.feature__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-bg-color);
+    width: 696px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-open-btn {
+    background: var(--primary-accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: inline-block;
+    letter-spacing: 0.06em;
+    color: var(--primary-bg-color);
+    width: 216px;
+    height: 50px;
+    transition: background-color var(--transition-dur-and-func),
+        box-shadow var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        background: var(--secondary-accent-color);
+    }
+}
+

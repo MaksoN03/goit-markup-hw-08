@@ -1,0 +1,36 @@
+.our-team {
+    background: var(--secondary-bg-color);
+}
+
+.workers-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.workers-list__item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    flex-basis: calc((100% - 90px)/ 4)
+}
+
+.workers-list__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: var(--primary-bg-color);
+}
+
+.workers-list__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.workers-list__job {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--primary-contact-color);
+    margin-bottom: 16px;
+}
