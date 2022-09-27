@@ -167,61 +167,103 @@
           </ul>
         </div>
       </section>
-      <!-- <section class="what-we-do section">
+      <section class="what-we-do">
         <div class="container">
           <h2 class="title">Чим ми займаємося</h2>
           <ul class="work-list list">
             <li class="work-list__item">
               <div class="what-we-do-container">
-                <img
-                  src="./images/box-1.jpg"
-                  alt="Work on PC"
-                  width="370"
-                  height="294"
-                  class="work-list__photo"
-                />
+                <picture>
+                  <source
+                    srcset="./images/box1-desktop.webp 1x, ./images/box1-desktop@2x.webp 2x"
+                    media="(min-width: 1200px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="./images/box1-desktop.jpg 1x, ./images/box1-desktop@2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                  />
+                  <img src="./images/box1-desktop.jpg" alt="Work on PC" class="work-list__photo" />
+                </picture>
                 <p class="what-we-do-overlay">Десктопні додатки</p>
               </div>
             </li>
             <li class="work-list__item">
               <div class="what-we-do-container">
-                <img
-                  src="./images/box-2.jpg"
-                  alt="Work on notebook"
-                  width="370"
-                  height="294"
-                  class="work-list__photo"
-                />
+                <picture>
+                  <source
+                    srcset="./images/box2-desktop.webp 1x, ./images/box2-desktop@2x.webp 2x"
+                    media="(min-width: 1200px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="./images/box2-desktop.jpg 1x, ./images/box2-desktop@2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    src="./images/box2-desktop.jpg"
+                    alt="Work on notebook"
+                    class="work-list__photo"
+                  />
+                </picture>
                 <p class="what-we-do-overlay">Мобільні додатки</p>
               </div>
             </li>
             <li class="work-list__item">
               <div class="what-we-do-container">
-                <img
-                  src="./images/box-3.jpg"
-                  alt="Work on GP"
-                  width="370"
-                  height="294"
-                  class="work-list__photo"
-                />
+                <picture>
+                  <source
+                    srcset="./images/box3-desktop.webp 1x, ./images/box3-desktop@2x.webp 2x"
+                    media="(min-width: 1200px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="./images/box3-desktop.jpg 1x, ./images/box3-desktop@2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                  />
+                  <img src="./images/box3-desktop.jpg" alt="Work on GP" class="work-list__photo" />
+                </picture>
                 <p class="what-we-do-overlay">Дизайнерські рішення</p>
               </div>
             </li>
           </ul>
         </div>
-      </section> -->
-      <!-- <section class="our-team section">
+      </section>
+      <section class="our-team section">
         <div class="container">
           <h2 class="title">Наша команда</h2>
           <ul class="workers-list list">
             <li class="workers-list__item">
-              <img
-                src="./images/photo-1.jpg"
-                alt="IgorPhoto"
-                width="270"
-                height="260"
-                class="workers-list__photo"
-              />
+              <picture>
+                <source
+                  srcset="./images/team1-desktop.webp 1x, ./images/team1-desktop@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/team1-desktop.jpg 1x, ./images/team1-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/team1-tablet.webp 1x, ./images/team1-tablet@2x.webp 2x"
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/team1-tablet.jpg 1x, ./images/team1-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/team1-mobile.webp 1x, ./images/team1-mobile@2x.webp 2x"
+                  media="(max-width: 767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/team1-mobile.jpg 1x, ./images/team1-mobile@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./images/team1-mobile.jpg" alt="IgorPhoto" class="workers-list__photo" />
+              </picture>
               <div class="workers-list__container">
                 <h3 class="workers-list__name">Ігор Дем'яненко</h3>
                 <p class="workers-list__job">Product Designer</p>
@@ -258,13 +300,36 @@
               </div>
             </li>
             <li class="workers-list__item">
-              <img
-                src="./images/photo-2.jpg"
-                alt="OlgaPhoto"
-                width="270"
-                height="260"
-                class="workers-list__photo"
-              />
+              <picture>
+                <source
+                  srcset="./images/team2-desktop.webp 1x, ./images/team2-desktop@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/team2-desktop.jpg 1x, ./images/team2-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/team2-tablet.webp 1x, ./images/team2-tablet@2x.webp 2x"
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/team2-tablet.jpg 1x, ./images/team2-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/team2-mobile.webp 1x, ./images/team2-mobile@2x.webp 2x"
+                  media="(max-width: 767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/team2-mobile.jpg 1x, ./images/team2-mobile@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./images/team2-mobile.jpg" alt="OlgaPhoto" class="workers-list__photo" />
+              </picture>
               <div class="workers-list__container">
                 <h3 class="workers-list__name">Ольга Рєпіна</h3>
                 <p class="workers-list__job">Frontend Developer</p>
@@ -301,13 +366,40 @@
               </div>
             </li>
             <li class="workers-list__item">
-              <img
-                src="./images/photo-3.jpg"
-                alt="MykolaPhoto"
-                width="270"
-                height="260"
-                class="workers-list__photo"
-              />
+              <picture>
+                <source
+                  srcset="./images/team3-desktop.webp 1x, ./images/team3-desktop@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/team3-desktop.jpg 1x, ./images/team3-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/team3-tablet.webp 1x, ./images/team3-tablet@2x.webp 2x"
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/team3-tablet.jpg 1x, ./images/team3-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/team3-mobile.webp 1x, ./images/team3-mobile@2x.webp 2x"
+                  media="(max-width: 767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/team3-mobile.jpg 1x, ./images/team3-mobile@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./images/team3-mobile.jpg"
+                  alt="MykolaPhoto"
+                  class="workers-list__photo"
+                />
+              </picture>
               <div class="workers-list__container">
                 <h3 class="workers-list__name">Микола Тарасов</h3>
                 <p class="workers-list__job">Marketing</p>
@@ -344,13 +436,36 @@
               </div>
             </li>
             <li class="workers-list__item">
-              <img
-                src="./images/photo-4.jpg"
-                alt="Mykhaylo"
-                width="270"
-                height="260"
-                class="workers-list__photo"
-              />
+              <picture>
+                <source
+                  srcset="./images/team4-desktop.webp 1x, ./images/team4-desktop@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/team4-desktop.jpg 1x, ./images/team4-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/team4-tablet.webp 1x, ./images/team4-tablet@2x.webp 2x"
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/team4-tablet.jpg 1x, ./images/team4-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/team4-mobile.webp 1x, ./images/team4-mobile@2x.webp 2x"
+                  media="(max-width: 767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/team4-mobile.jpg 1x, ./images/team4-mobile@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./images/team4-mobile.jpg" alt="Mykhaylo" class="workers-list__photo" />
+              </picture>
               <div class="workers-list__container">
                 <h3 class="workers-list__name">Михайло Єрмаков</h3>
                 <p class="workers-list__job">UI Designer</p>
@@ -388,7 +503,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- <section class="clients section">
         <div class="container">
           <h2 class="title">Постійні клієнти</h2>
