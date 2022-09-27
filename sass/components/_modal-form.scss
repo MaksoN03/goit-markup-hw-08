@@ -156,3 +156,13 @@
         background-color: #188CE8;
     }
 }
+
+@media screen and (max-width: 1199px){
+    .modal-form__policy-link {
+        font-size: 12px;
+    }
+
+    .modal-form__policy-text {
+        font-size: 12px;
+    }
+}
