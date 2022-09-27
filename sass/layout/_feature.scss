@@ -11,7 +11,7 @@
     max-width: 100%;
     background-color: #C4C4C4;
     text-align: center;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/feature-img-mobile.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/feature-img-mobile.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,7 +21,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .feature {
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/feature-img-mobile@2x.jpg);
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/feature-img-mobile@2x.jpg);
     }
 }
 
@@ -63,14 +63,14 @@
 
 @media screen and (min-width: 768px) {
     .feature {
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/feature-img-tablet.jpg);
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/feature-img-tablet.jpg);
     }
 
     @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .feature {
-            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/feature-img-tablet@2x.jpg);
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/feature-img-tablet@2x.jpg);
         }
     }
 }
@@ -81,14 +81,14 @@
         padding-bottom: 200px;
         height: 600px;
         max-width: 1600px;
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/feature-img-desktop.jpg);
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/feature-img-desktop.jpg);
     }
 
     @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .feature {
-            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/feature-img-desktop@2x.jpg);
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/feature-img-desktop@2x.jpg);
         }
     }
 
