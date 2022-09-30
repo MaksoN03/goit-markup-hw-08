@@ -234,9 +234,15 @@ body {
     height: 581px;
   }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 450px) {
   .modal {
     width: 450px;
+    height: 609px;
+  }
+}
+@media screen and (max-width: 449px) {
+  .modal {
+    width: 100%;
     height: 609px;
   }
 }
@@ -441,9 +447,6 @@ body {
   .mobile-menu__close-icon {
     width: 40px;
     height: 40px;
-  }
-  .mobile-nav {
-    margin-bottom: 202px;
   }
   .mobile-nav__item {
     font-family: var(--primary-font);
@@ -822,9 +825,13 @@ body {
   .footer-container__first-container {
     margin-bottom: 0;
     margin-right: 70px;
+    text-align: left;
   }
   .footer-container__second-container {
     margin-right: 93px;
+  }
+  .footer-container__header-join {
+    text-align: left;
   }
 }
 .feature__container {
@@ -840,7 +847,7 @@ body {
   max-width: 100%;
   background-color: #C4C4C4;
   text-align: center;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/feature-img-mobile.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/feature-img-mobile.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -848,7 +855,7 @@ body {
 
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .feature {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/feature-img-mobile@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/feature-img-mobile@2x.jpg);
   }
 }
 .feature__title {
@@ -887,12 +894,12 @@ body {
 
 @media screen and (min-width: 768px) {
   .feature {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/feature-img-tablet.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/feature-img-tablet.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .feature {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/feature-img-tablet@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/feature-img-tablet@2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -901,12 +908,12 @@ body {
     padding-bottom: 200px;
     height: 600px;
     max-width: 1600px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/feature-img-desktop.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/feature-img-desktop.jpg);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .feature {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/feature-img-desktop@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/feature-img-desktop@2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -918,7 +925,7 @@ body {
 }
 .characteristic-list__container {
   width: 100%;
-  height: 226px;
+  height: 120px;
   margin-bottom: 30px;
   background-color: #F5F4FA;
 }
@@ -956,7 +963,6 @@ body {
   }
   .characteristic-list__container {
     width: 340px;
-    height: 224px;
   }
   .characteristic-list__item {
     width: calc((100% - 30px) / 2);
@@ -968,7 +974,6 @@ body {
 @media screen and (min-width: 1200px) {
   .characteristic-list__container {
     width: 270px;
-    height: 120px;
   }
   .characteristic-list__item {
     flex-basis: calc((100% - 90px) / 4);
@@ -1167,10 +1172,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-}
-
-.portfolio-projects__item {
-  flex-basis: 370px;
 }
 
 .portfolio-projects__container {

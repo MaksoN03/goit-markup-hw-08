@@ -1,7 +1,7 @@
 .characteristic-list__container {
     @extend %flex-align;
     width: 100%;
-    height: 226px;
+    height: 120px;
     margin-bottom: 30px;
     background-color: #F5F4FA;
 }
@@ -40,7 +40,6 @@
 
     .characteristic-list__container {
         width: 340px;
-        height: 224px;
     }
 
     .characteristic-list__item {
@@ -55,7 +54,6 @@
 @media screen and (min-width: 1200px) {
     .characteristic-list__container {
         width: 270px;
-        height: 120px;
     }
 
     .characteristic-list__item {
